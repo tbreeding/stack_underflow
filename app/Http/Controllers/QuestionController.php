@@ -39,7 +39,7 @@ class QuestionController extends Controller
      */
     public function show($id)
     {
-        return 'Show some shit about this asshole - '.$id;
+        return view('questions.show');
     }
 
     /**
